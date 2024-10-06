@@ -4,7 +4,8 @@
 [https://crt.sh/](https://crt.sh/)  
 
 **Curl Command:**  
-PREREQUISITES:
+
+*PREREQUISITES:*  
 - curl  
 - [anew](https://github.com/tomnomnom/anew)  
 
