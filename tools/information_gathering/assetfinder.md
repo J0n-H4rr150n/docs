@@ -1,6 +1,6 @@
 # assetfinder  
 [https://github.com/tomnomnom/assetfinder](https://github.com/tomnomnom/assetfinder)  
-'Find domains and subdomains related to a given domain'  
+`Find domains and subdomains related to a given domain`  
 
 Install:  
 $ `go install github.com/tomnomnom/assetfinder@latest`  
