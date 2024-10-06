@@ -9,7 +9,7 @@
     * [VirusTotal](tools/information_gathering/virustotal.md)
     * [whois](tools/information_gathering/whois.md)
   * Wordlists
-    * [AssetNote](tools/information_gathering/assetnote.md)
-    * [PayloadsAllTheThings](tools/information_gathering/payloadsallthethings.md)
-    * [SecLists](tools/information_gathering/seclists.md)
+    * [AssetNote](tools/wordlists/assetnote.md)
+    * [PayloadsAllTheThings](tools/wordlists/payloadsallthethings.md)
+    * [SecLists](tools/wordlists/seclists.md)
   
