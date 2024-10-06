@@ -4,12 +4,16 @@
 [https://crt.sh/](https://crt.sh/)  
 
 **Curl Command:**  
+PREREQUISITES:
+- curl  
+- [anew](https://github.com/tomnomnom/anew)  
+
 Add the following curl command to a file named `crt.sh`  
 ```
 curl -s "https://crt.sh/?q={domain_name}&output=json"
 ```  
 $ `chmod +x crt.sh`    
-$ `./crt.sh | jq -r '.[].name_value' | sort -u`  
+$ `./crt.sh | jq -r '.[].name_value' | sort -u | anew domain.{domain_name}.txt`  
 
 **Install CLI Tool on Ubuntu:**    
 [https://github.com/az7rb/crt.sh](https://github.com/az7rb/crt.sh)  
