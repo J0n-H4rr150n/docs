@@ -12,7 +12,7 @@ Manual:
 
 $ `man dig`  
 
-Usage:
+Usage:  
 $ `dig -h`  
 $ `dig {domain}`  
 $ `dig {domain} NS`  
