@@ -2,6 +2,9 @@
 [https://github.com/lanmaster53/recon-ng](https://github.com/lanmaster53/recon-ng)  
 [https://www.kali.org/tools/recon-ng/](https://www.kali.org/tools/recon-ng/)  
 
+## Tutorial  
+[https://hackertarget.com/recon-ng-tutorial/](https://hackertarget.com/recon-ng-tutorial/)  
+
 ## Ubuntu  
 
 ### Using PTF (Penetration Testers Framework)  
