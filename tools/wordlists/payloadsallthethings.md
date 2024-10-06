@@ -1,6 +1,6 @@
 # PayloadsAllTheThings  
 [https://github.com/swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)  
-'A list of useful payloads and bypass for Web Application Security and Pentest/CTF'  
+`A list of useful payloads and bypass for Web Application Security and Pentest/CTF`  
 
 - Account Takeover  
 - API Key Leaks  
