@@ -10,7 +10,7 @@
 | Whoxy | [https://www.whoxy.com](https://www.whoxy.com) |  
 
 ### Whoxy  
-https://www.whoxy.com  
+[https://www.whoxy.com](https://www.whoxy.com)  
 https://www.whoxy.com/{domain_name}  
 https://www.whoxy.com/company/{int}  
 https://www.whoxy.com/email/{int}  
