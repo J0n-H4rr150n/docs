@@ -5,6 +5,7 @@
 | ---- | ---- |  
 | DomainTools | [https://whois.domaintools.com/](https://whois.domaintools.com/) |  
 | ICANN | [https://lookup.icann.org/en](https://lookup.icann.org/en) |  
+| NsLookup | [https://www.nslookup.io/](https://www.nslookup.io/) |  
 | VirusTotal | [https://www.virustotal.com/gui/domain/google.com/details](https://www.virustotal.com/gui/domain/google.com/details) |  
 | Whois | [https://www.whois.com/whois/](https://www.whois.com/whois/) |  
 | Whoxy | [https://www.whoxy.com](https://www.whoxy.com) |  
