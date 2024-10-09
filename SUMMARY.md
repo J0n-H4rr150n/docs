@@ -12,10 +12,9 @@
   * Wordlists  
     * [AssetNote](tools/wordlists/assetnote.md)  
     * [PayloadsAllTheThings](tools/wordlists/payloadsallthethings.md)  
-    * [SecLists](tools/wordlists/seclists.md)
-* Vulnerabilities
- * [Cross-Site Scripting (XSS)](vulnerabilities/xss/xss.md)  
+    * [SecLists](tools/wordlists/seclists.md)  
+* Vulnerabilities  
+  * [Cross-Site Scripting (XSS)](vulnerabilities/xss/xss.md)  
 * Workflows  
   * Information Gathering  
     * [Subdomains](workflows/information_gathering/subdomains.md)
- 
