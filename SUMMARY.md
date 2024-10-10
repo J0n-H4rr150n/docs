@@ -14,7 +14,9 @@
     * [PayloadsAllTheThings](tools/wordlists/payloadsallthethings.md)  
     * [SecLists](tools/wordlists/seclists.md)  
 * Vulnerabilities  
-  * [Cross-Site Scripting (XSS)](vulnerabilities/xss/xss.md)  
+  * [Cross-Site Request Forgery (CSRF)](vulnerabilities/csrf/csrf.md)
+  * [Cross-Site Scripting (XSS)](vulnerabilities/xss/xss.md)
+  * [Reflected File Download](vulnerabilities/files/reflected_file_download.md)
 * Workflows  
   * Information Gathering  
     * [Subdomains](workflows/information_gathering/subdomains.md)
