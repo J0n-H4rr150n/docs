@@ -14,7 +14,7 @@
     * [PayloadsAllTheThings](tools/wordlists/payloadsallthethings.md)  
     * [SecLists](tools/wordlists/seclists.md)  
 * Vulnerabilities
-  * [Command Injection](vulnerabilities/command_injection/comand_injection.md)  
+  * [Command Injection](vulnerabilities/command_injection/command_injection.md)  
   * [Cross-Site Request Forgery (CSRF)](vulnerabilities/csrf/csrf.md)  
   * [Cross-Site Scripting (XSS)](vulnerabilities/xss/xss.md)  
   * [Reflected File Download](vulnerabilities/files/reflected_file_download.md)  
