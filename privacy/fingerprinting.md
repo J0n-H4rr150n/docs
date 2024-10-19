@@ -1,6 +1,6 @@
 # fingerprinting  
 
-[Be Careful](../images/privacy-be-careful.png)  
+![Be Careful](../images/privacy-be-careful.png)  
 
 ## Reduce Fingerprint Tracking  
 
