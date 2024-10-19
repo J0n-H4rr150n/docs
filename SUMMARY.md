@@ -1,5 +1,12 @@
 # Table of contents  
 * [Home Page](README.md)  
+* Cloud  
+  * Amazon Web Services (AWS)  
+    * [aws](cloud/aws/aws.md)  
+  * Oracle Cloud Infrastructure (OCI)  
+    * [aws](cloud/oracle/oracle.md)  
+* Privacy
+  * [fingerprinting](privacy/fingerprinting.md)
 * Tools  
   * Information Gathering  
     * [assetfinder](tools/information_gathering/assetfinder.md)  
