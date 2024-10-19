@@ -1,6 +1,6 @@
 # fingerprinting  
 
-![Be Careful](../images/privacy-be-careful.png)  
+<img src="../images/privacy-be-careful.png" alt="Be Careful" width="200"/>
 
 ## Reduce Fingerprint Tracking  
 
