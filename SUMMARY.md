@@ -4,7 +4,7 @@
   * Amazon Web Services (AWS)  
     * [aws](cloud/aws/aws.md)  
   * Oracle Cloud Infrastructure (OCI)  
-    * [aws](cloud/oracle/oracle.md)  
+    * [oci](cloud/oracle/oracle.md)  
 * Privacy
   * [fingerprinting](privacy/fingerprinting.md)
 * Tools  
