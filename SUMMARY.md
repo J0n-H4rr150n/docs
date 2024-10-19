@@ -2,11 +2,11 @@
 * [Home Page](README.md)  
 * Cloud  
   * Amazon Web Services (AWS)  
-    * [aws](cloud/aws/aws.md)  
+    * [AWS](cloud/aws/aws.md)  
   * Oracle Cloud Infrastructure (OCI)  
-    * [oci](cloud/oracle/oci.md)  
+    * [OCI](cloud/oracle/oci.md)  
 * Privacy
-  * [fingerprinting](privacy/fingerprinting.md)
+  * [Fingerprinting](privacy/fingerprinting.md)
 * Tools  
   * Information Gathering  
     * [assetfinder](tools/information_gathering/assetfinder.md)  
