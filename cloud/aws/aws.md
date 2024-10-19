@@ -26,7 +26,8 @@ Pacu
 
 Enumerate AWS Account ID from a Public S3 Bucket  
 [https://hackingthe.cloud/aws/enumeration/account_id_from_s3_bucket/](https://hackingthe.cloud/aws/enumeration/account_id_from_s3_bucket/)  
-
+- `s3-account-search` -> `python3 -m pip install s3-account-search`  
+- [Random Public S3 Buckets - GrayhatWarfare](https://buckets.grayhatwarfare.com/random/buckets)  
 
 ## Training Resources  
 
