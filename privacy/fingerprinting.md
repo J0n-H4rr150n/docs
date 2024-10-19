@@ -18,6 +18,9 @@
 
 ## Tools  
 
+Am I Unique?  
+[https://amiunique.org/fingerprint](https://amiunique.org/fingerprint)  
+
 Browserleaks  
 [https://browserleaks.com/](https://browserleaks.com/)
 
@@ -37,3 +40,6 @@ Cover Your Tracker
 
 DNS Leak Test  
 [https://www.dnsleaktest.com/](https://www.dnsleaktest.com/)  
+
+What Is My IP?  
+[https://www.whatismyip.com/](https://www.whatismyip.com/)  
