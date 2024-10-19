@@ -7,7 +7,12 @@
     * [OCI](cloud/oracle/oci.md)  
 * Privacy
   * [Fingerprinting](privacy/fingerprinting.md)
-* Tools  
+* Tools
+  * Frameworks
+    * [axiom (ax)](tools/frameworks/axiom.md)
+    * [bbrf](tools/frameworks/bbrf.md)
+    * [brevity](tools/frameworks/brevity.md)
+    * [ptf](tools/frameworks/ptf.md)  
   * Information Gathering  
     * [assetfinder](tools/information_gathering/assetfinder.md)  
     * [dig](tools/information_gathering/dig.md)  
