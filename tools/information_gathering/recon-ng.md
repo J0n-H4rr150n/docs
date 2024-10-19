@@ -22,14 +22,18 @@ ptf:(modules/intelligence-gathering/recon-ng)> `exit`
 ptf> `exit`  
 
 3. Run `recon-ng` from anywhere once it has been installed with `ptf`  
-$ `recon-ng`  
+```
+recon-ng
+```  
 
-4. Use `recon-ng`  
+5. Use `recon-ng`  
 Create a workspace:    
 [recon-ng][default] > `workspaces create {target_name}`
 
 Open a workspace:  
-$ `recon-ng -w {workspace_name}`  
+```
+recon-ng -w {workspace_name}
+```  
 
 See available modules:
 [recon-ng][default] > `marketplace search`  
