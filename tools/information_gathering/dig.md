@@ -3,8 +3,12 @@
 ## Ubuntu  
 
 Install:  
-$ `sudo apt update`  
-$ `sudo apt install dnsutils`  
+```
+sudo apt update
+```  
+```
+sudo apt install dnsutils
+```  
 
 Manual:  
 [https://manpages.ubuntu.com/manpages/jammy/man1/dig.1.html](https://manpages.ubuntu.com/manpages/jammy/man1/dig.1.html)  
