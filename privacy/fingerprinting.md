@@ -1,6 +1,6 @@
 # fingerprinting  
 
-<img src="../images/privacy-be-careful.png" alt="Be Careful" width="200"/>
+<img src="../images/privacy-be-careful.png" alt="Be Careful" width="400"/>
 
 ## Reduce Fingerprint Tracking  
 
