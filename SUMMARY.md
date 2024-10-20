@@ -24,7 +24,10 @@
     * [recon-ng](tools/information_gathering/recon-ng.md)  
     * [VirusTotal](tools/information_gathering/virustotal.md)  
     * [wappalyzer](tools/information_gathering/wappalyzer.md)  
-    * [whois](tools/information_gathering/whois.md)  
+    * [whois](tools/information_gathering/whois.md)
+  * Vulnerabilities  
+    * [sqli](tools/vulnerabilities/sqli.md)
+    * [xss](tools/vulnerabilities/xss.md)  
   * Wordlists  
     * [AssetNote](tools/wordlists/assetnote.md)  
     * [PayloadsAllTheThings](tools/wordlists/payloadsallthethings.md)  
