@@ -1,11 +1,12 @@
 {
     "plugins": [
-        "meta"
+        "meta-single"
     ],
     "pluginsConfig": {
-        "meta": {
-            "name": "apple-mobile-web-app-capable",
-            "content": "yes"
+        "meta-single": {
+            "name": "google-site-verification",
+            "content": "google5886cf4069f3cde7.html"
         }
     }
 }
+
