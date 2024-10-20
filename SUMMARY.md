@@ -26,6 +26,7 @@
     * [wappalyzer](tools/information_gathering/wappalyzer.md)  
     * [whois](tools/information_gathering/whois.md)
   * Vulnerabilities  
+    * [secrets](tools/vulnerabilities/secrets.md)
     * [sqli](tools/vulnerabilities/sqli.md)
     * [xss](tools/vulnerabilities/xss.md)  
   * Wordlists  
