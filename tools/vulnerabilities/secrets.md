@@ -18,10 +18,6 @@ TruffleHog Chrome Extension
 TruffleHog OSS - GitHub Action  
 [https://github.com/marketplace/actions/trufflehog-oss](https://github.com/marketplace/actions/trufflehog-oss)  
 
-| Name | Description | Metadata |
-| ------ | ------------ | ---------- |
-| **[trufflehog-oss](https://github.com/marketplace/actions/trufflehog-oss)** | Find, verify, and analyze leaked credentials with this GitHub Action |[![stars](https://badgen.net/github/stars/marketplace/actions/trufflehog-oss)](https://badgen.net/github/stars/marketplace/actions/trufflehog-oss) [![contributors](https://badgen.net/github/contributors/marketplace/actions/trufflehog-oss)](https://badgen.net/github/contributors/marketplace/actions/trufflehog-oss) [![watchers](https://badgen.net/github/watchers/marketplace/actions/trufflehog-oss)](https://badgen.net/github/watchers/marketplace/actions/trufflehog-oss) [![open-issues](https://badgen.net/github/open-issues/marketplace/actions/trufflehog-oss)](https://badgen.net/github/open-issues/marketplace/actions/trufflehog-oss) [![closed-issues](https://badgen.net/github/closed-issues/marketplace/actions/trufflehog-oss)](https://badgen.net/github/closed-issues/marketplace/actions/trufflehog-oss) [![last-commit](https://badgen.net/github/last-commit/marketplace/actions/trufflehog-oss)](https://badgen.net/github/last-commit/marketplace/actions/trufflehog-oss) |  
-
 What is TruffleHog?  
 [https://trufflesecurity.com/trufflehog](https://trufflesecurity.com/trufflehog)  
 
