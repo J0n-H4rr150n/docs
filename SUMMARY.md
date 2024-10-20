@@ -5,6 +5,8 @@
     * [AWS](cloud/aws/aws.md)  
   * Oracle Cloud Infrastructure (OCI)  
     * [OCI](cloud/oracle/oci.md)  
+* Pentesting  
+  * [Reports](pentesting/reports.md)  
 * Privacy
   * [Fingerprinting](privacy/fingerprinting.md)
 * Tools
