@@ -1,5 +1,11 @@
 {
     "plugins": [
         "meta"
-    ]
+    ],
+    "pluginsConfig": {
+        "meta": {
+            "name": "google-site-verification",
+            "content": "VXsOeVBOSZXD2th5y7fFfry14Ip1ROO80oXKpwi0Kx4"
+        }
+    }
 }
