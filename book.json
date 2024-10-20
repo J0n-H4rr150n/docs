@@ -1,12 +1,11 @@
 {
     "plugins": [
-        "meta-single"
+        "meta"
     ],
     "pluginsConfig": {
-        "meta-single": {
+        "meta": {
             "name": "google-site-verification",
-            "content": "google5886cf4069f3cde7.html"
+            "content": "VXsOeVBOSZXD2th5y7fFfry14Ip1ROO80oXKpwi0Kx4"
         }
     }
 }
-
