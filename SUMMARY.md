@@ -1,5 +1,7 @@
 # Table of contents  
 * [Home Page](README.md)  
+* Bugbounty
+  * [Writeups](bugbounty/writeups.md)  
 * Cloud  
   * Amazon Web Services (AWS)  
     * [AWS](cloud/aws/aws.md)  
