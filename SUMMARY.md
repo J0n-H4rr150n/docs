@@ -7,6 +7,9 @@
     * [AWS](cloud/aws/aws.md)  
   * Oracle Cloud Infrastructure (OCI)  
     * [OCI](cloud/oracle/oci.md)  
+* Education  
+  * Books  
+    * [Programming](education/books/programming.md)  
 * Pentesting  
   * [Reports](pentesting/reports.md)  
 * Privacy
