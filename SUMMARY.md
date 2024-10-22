@@ -10,6 +10,8 @@
 * Education  
   * Books  
     * [Programming](education/books/programming.md)  
+  * Training  
+    * [Online](education/training/online.md)  
 * Pentesting  
   * [Reports](pentesting/reports.md)  
 * Privacy
