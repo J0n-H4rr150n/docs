@@ -21,7 +21,8 @@
     * [axiom (ax)](tools/frameworks/axiom.md)
     * [bbrf](tools/frameworks/bbrf.md)
     * [brevity](tools/frameworks/brevity.md)
-    * [ptf](tools/frameworks/ptf.md)  
+    * [ptf](tools/frameworks/ptf.md)
+    * [trickest](tools/frameworks/trickest.md)  
   * Information Gathering  
     * [assetfinder](tools/information_gathering/assetfinder.md)  
     * [dig](tools/information_gathering/dig.md)  
