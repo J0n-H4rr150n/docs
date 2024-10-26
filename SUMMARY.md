@@ -9,7 +9,9 @@
     * [OCI](cloud/oracle/oci.md)  
 * Education  
   * Books  
-    * [Programming](education/books/programming.md)  
+    * [Programming](education/books/programming.md)
+  * Certifications  
+    * [Certifications](education/certifications/certifications.md)  
   * Training  
     * [Online](education/training/online.md)  
 * Pentesting  
