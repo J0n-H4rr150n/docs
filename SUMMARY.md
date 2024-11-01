@@ -18,6 +18,8 @@
   * [Reports](pentesting/reports.md)  
 * Privacy
   * [Fingerprinting](privacy/fingerprinting.md)
+* Programming
+  * [Python](programming/python/python.md)
 * Tools
   * Frameworks
     * [axiom (ax)](tools/frameworks/axiom.md)
