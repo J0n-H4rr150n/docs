@@ -37,6 +37,8 @@
     * [VirusTotal](tools/information_gathering/virustotal.md)  
     * [wappalyzer](tools/information_gathering/wappalyzer.md)  
     * [whois](tools/information_gathering/whois.md)
+  * SAST
+    * [semgrep](tools/sast/semgrep.md)  
   * Vulnerabilities  
     * [secrets](tools/vulnerabilities/secrets.md)
     * [sqli](tools/vulnerabilities/sqli.md)
