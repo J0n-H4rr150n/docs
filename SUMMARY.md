@@ -20,6 +20,8 @@
   * [Fingerprinting](privacy/fingerprinting.md)
 * Programming
   * [Python](programming/python/python.md)
+* Threat Modeling
+  * [Threat Modeling](threat_modeling/threat_modeling.md)
 * Tools
   * Frameworks
     * [axiom (ax)](tools/frameworks/axiom.md)
