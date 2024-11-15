@@ -30,6 +30,7 @@
     * [ptf](tools/frameworks/ptf.md)
     * [trickest](tools/frameworks/trickest.md)  
   * Information Gathering  
+    * [amass](tools/information_gathering/amass.md)  
     * [assetfinder](tools/information_gathering/assetfinder.md)  
     * [dig](tools/information_gathering/dig.md)  
     * [nmap](tools/information_gathering/nmap.md)  
