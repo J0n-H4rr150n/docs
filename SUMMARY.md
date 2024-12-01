@@ -23,6 +23,8 @@
 * Threat Modeling
   * [Threat Modeling](threat_modeling/threat_modeling.md)
 * Tools
+  * Data
+    * [curl](tools/data/curl.md)
   * Frameworks
     * [axiom (ax)](tools/frameworks/axiom.md)
     * [bbrf](tools/frameworks/bbrf.md)
