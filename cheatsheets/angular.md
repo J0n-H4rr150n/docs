@@ -1,6 +1,6 @@
 # Angular Security Testing Cheatsheet
 
-**1. Vulnerability Focus: Angular Applications**
+## 1. Vulnerability Focus: Angular Applications
 
 * **Target:** Web applications built using the Angular framework (or similar client-side JavaScript frameworks/Single-Page Applications - SPAs).
 * **Primary Vulnerability Categories to Focus On:**
@@ -8,7 +8,7 @@
   * **Client-Side Logic Flaws & Client-Side Security Issues:** Vulnerabilities arising from insecure client-side implementation, including client-side access control bypasses, sensitive data exposure in client-side code, and client-side validation weaknesses.
   * **Traditional Server-Side Vulnerabilities (Backend API Focus):** While less Angular-specific, remember to also test the backend APIs that the Angular application interacts with for common server-side vulnerabilities (XSS, Injection, Authentication/Authorization issues, etc.).
 
-**2. Common Attack Vectors in Angular Applications**
+## 2. Common Attack Vectors in Angular Applications
 
 * **DOM-based XSS Vectors (Client-Side Input Processing):**
   
@@ -29,7 +29,7 @@
     * API Headers
     * File Upload Endpoints
 
-**3. What to Look For: Angular Security Indicators**
+## 3. What to Look For: Angular Security Indicators
 
 * **DOM XSS Indicators (JavaScript Code Focus):**
   
@@ -47,7 +47,7 @@
   
   * **(Refer to "What to Look For" sections in cheatsheets for relevant vulnerability types like XSS, SQLi, etc.)** Standard indicators for server-side vulnerabilities in API responses and behavior.
 
-**4. Example Payloads/Testing Techniques: Angular Specific**
+## 4. Example Payloads/Testing Techniques: Angular Specific
 
 * **DOM XSS Payloads (Focus on Client-Side Context):**
   
@@ -69,7 +69,7 @@
     * Parameter Manipulation for IDOR/Access Control (as per Access Control/IDOR Cheatsheet)
     * API Fuzzing for unexpected behavior and input validation flaws.
 
-**5. Tools to Use: Angular Security Testing**
+## 5. Tools to Use: Angular Security Testing
 
 * **Web Browser with Developer Tools (Chrome/Firefox DevTools) - *Essential for Client-Side Debugging & Analysis*:**
   
@@ -86,7 +86,7 @@
   * **Automated Scanners (Burp Scanner Pro/ZAP Active Scanner):** Scan API endpoints for standard web vulnerabilities (use responsibly).
   * **Spider/Crawler (ZAP/Burp Spider):** Discover API endpoints and Angular application routes.
 
-**6. Synack Specific Notes: Angular Applications**
+## 6. Synack Specific Notes: Angular Applications
 
 * **Focus on Impactful Vulnerabilities:** As with all Synack SRT engagements, prioritize demonstrating *impact*.  For DOM XSS and client-side logic flaws, think about how they could lead to account compromise, data theft, or other significant security consequences.
 * **DOM XSS - Demonstrate Real Impact:** While `alert()` is a PoC, try to show a more tangible impact of DOM XSS if possible (e.g., cookie theft, redirect, DOM manipulation that defaces the page).
@@ -94,41 +94,7 @@
 * **API Vulnerabilities - Standard Synack Reporting:** Report API vulnerabilities (XSS, injection, auth issues) following standard Synack SRT reporting guidelines, emphasizing impact and providing clear PoCs.
 * **Review Scope and Rules:**  Always check the SRT program scope and rules for any specific guidance related to Angular applications or client-side vulnerabilities.
 
-**7. Checklist/Steps to Follow: Angular Security Testing**
-
-1. **Identify Angular Application:** Confirm the target is built with Angular (or a similar SPA framework). Look for Angular-specific file names (`angular.json`, `component.ts` files in DevTools "Sources"), Angular-specific HTML attributes (e.g., `ng-app`, `ng-controller`), or use browser extensions to detect frameworks.
-
-2. **Recon Client-Side Routes & API Endpoints:** Explore the Angular application's different views, routes, and functionalities to understand its client-side structure and identify API endpoints it interacts with (using DevTools "Network" tab).
-
-3. **JavaScript Code Analysis (DevTools "Sources" Tab - *Key for Angular*):**
-   
-   * Examine Angular JavaScript code for potential DOM XSS vulnerabilities.
-   * **Search for "Sink" Functions:** Use "Search" in DevTools "Sources" to find instances of `innerHTML`, `outerHTML`, `document.write`, `eval`, `Function()`, `setTimeout`, `setInterval`, `document.location`, `element.insertAdjacentHTML`.
-   * **Trace Data Flow to Sinks:** For each "sink" found, trace back the data sources. Is user-controlled data from URL parameters, URL hash, DOM elements, etc., flowing into these sinks *without sanitization*?
-   * Analyze Angular Component Logic for client-side security flaws and data handling issues.
-
-4. **Test for DOM XSS:**
-   
-   * Craft DOM XSS payloads (URL hash based, `javascript:` URLs, etc. - Section 4).
-   * Inject payloads into URL parameters, URL hash, or other client-side input locations.
-   * Observe for DOM XSS indicators (Section 3) - use DevTools "Console" and "Elements" tabs.
-
-5. **Test for Client-Side Logic Flaws:**
-   
-   * Try to bypass client-side routing or access controls by manipulating URLs or client-side state.
-   * Send direct API requests (using proxy/DevTools) to bypass client-side validation or authorization.
-
-6. **Test Backend APIs (Standard Web App Testing):**
-   
-   * Test API endpoints for common server-side vulnerabilities (XSS, Injection, Authentication/Authorization, etc.) using standard web app testing techniques and your other cheatsheets (XSS Cheatsheet, etc.).
-
-7. **Report Angular Vulnerabilities (Focus on Impact):**
-   
-   * For DOM XSS and Client-Side Logic Flaws: Clearly explain the client-side vulnerability, how it's exploited in the browser, and its potential impact. Provide JavaScript code snippets (from DevTools) if relevant.
-   * For API Vulnerabilities: Follow standard Synack reporting guidelines, but also mention that the vulnerability was found in the backend API of an Angular application (context can be helpful).
-   * In all reports, emphasize the *security impact* of the vulnerability and provide clear Proof of Concept steps.
-
-**8. Reporting & Considerations: Angular Vulnerabilities**
+## 7. Reporting & Considerations: Angular Vulnerabilities
 
 * **Clearly Indicate "Angular Application Vulnerability":**  In your report title and summary, specify that you found a vulnerability in an Angular application (e.g., "DOM XSS in Angular Application Client-Side Routing").
 * **Distinguish DOM XSS from Reflected/Stored XSS:**  If you find DOM XSS, clearly differentiate it from traditional Reflected or Stored XSS. Emphasize that DOM XSS is a *client-side* vulnerability in the JavaScript code.

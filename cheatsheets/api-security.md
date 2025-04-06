@@ -1,6 +1,6 @@
 # API Security Testing Cheatsheet
 
-**1. Vulnerability Focus: APIs (Application Programming Interfaces)**
+## 1. Vulnerability Focus: APIs (Application Programming Interfaces)
 
 * **Target:**  Web APIs, typically RESTful APIs using JSON or XML, often powering web applications, mobile apps, and integrations.
 * **Primary Vulnerability Categories to Focus On (OWASP API Security Top 10 & Common API Issues):**
@@ -15,7 +15,7 @@
   * **Mass Assignment (MA):** APIs blindly accept data from clients without proper filtering, allowing attackers to modify object properties they shouldn't be able to (especially relevant in APIs that handle data updates/creation).
   * **Vulnerable and Outdated Components (VOC):** APIs rely on vulnerable or outdated libraries, frameworks, and software components, exposing them to known vulnerabilities.
 
-**2. Common API Attack Vectors**
+## 2. Common API Attack Vectors
 
 * **Direct API Endpoint Access:** Attackers directly access API endpoints, bypassing the intended user interface (web app, mobile app) to interact with the API directly and potentially exploit vulnerabilities.
 * **API Parameter Manipulation:** Tampering with API parameters (query parameters, POST data, JSON/XML payloads) to bypass authorization, inject malicious data, or trigger unexpected behavior.
@@ -25,7 +25,7 @@
 * **API Fuzzing:** Sending a large number of unexpected or malformed requests to API endpoints to discover input validation flaws, error handling issues, and potential crashes or vulnerabilities.
 * **Logic/Business Logic Flaws:** Exploiting flaws in the API's business logic and workflows to achieve unintended outcomes, bypass security controls, or gain unauthorized access (often related to access control and authorization).
 
-**3. What to Look For: API Security Indicators**
+## 3. What to Look For: API Security Indicators
 
 * **Broken Access Control (BAC) Indicators:**
   
@@ -56,7 +56,7 @@
   * **Lack of Input Validation:** APIs that don't properly validate or sanitize user input before processing it.
   * **Error Messages Revealing Backend Technology:** API error messages that reveal the backend database type, framework, or other internal details, potentially hinting at injection points.
 
-**4. Example Payloads/Testing Techniques: API Specific**
+## 4. Example Payloads/Testing Techniques: API Specific
 
 * **Broken Access Control (BAC) & IDOR Testing Techniques:**
   
@@ -96,7 +96,7 @@
   * **Analyze API Error Messages for Injection Clues:**
     * Look for API error messages that reveal database errors, backend errors, or code execution errors when injecting payloads. This can confirm injection vulnerabilities and provide clues about the backend technology.
 
-**5. Tools to Use: API Security Testing**
+## 5. Tools to Use: API Security Testing
 
 * **Web Proxies (Burp Suite/ZAP) - *Essential for API Interception, Modification, and Replay*:**
   
@@ -120,7 +120,7 @@
   
   * Fuzz API parameters and endpoints with various payloads to discover vulnerabilities.
 
-**6. Synack Specific Notes: API Applications**
+## 6. Synack Specific Notes: API Applications
 
 * **Prioritize Impactful API Vulnerabilities:** Focus on demonstrating *security impact* for API vulnerabilities.  Show how an API vulnerability could lead to data breaches, account compromise, privilege escalation, or other significant security consequences.
 * **Broken Access Control & IDOR - High Impact:** These API vulnerabilities are often considered high severity, especially if they allow access to sensitive data or critical functionalities. Clearly demonstrate the unauthorized access and potential impact.
@@ -128,20 +128,7 @@
 * **API Documentation & Swagger/OpenAPI:** If API documentation (Swagger/OpenAPI) is available, use it to understand API endpoints, parameters, and authentication schemes. However, also test endpoints and parameters *not* documented, as they might have different security controls.
 * **Review Scope and Rules:** Always check the SRT program scope and rules for any specific guidance related to API testing, allowed attack types, and reporting requirements.
 
-**7. Checklist/Steps to Follow: API Security Testing**
-
-1. **API Endpoint Discovery:** Identify API endpoints used by the application (client-side code analysis, proxy, API documentation, web crawling).
-2. **API Authentication & Authorization Scheme Analysis:** Understand how the API authenticates and authorizes requests (API keys, tokens, OAuth, session cookies, etc.).
-3. **Test for Broken Authentication (BA):** Try to bypass authentication, brute-force credentials, exploit token vulnerabilities, test session management.
-4. **Test for Broken Access Control (BAC) & IDOR:** Systematically test access control on API endpoints. Try to access resources or perform actions without proper authorization, manipulate IDs to access unauthorized data (IDOR). Test different roles/user types if applicable.
-5. **Test for Injection Vulnerabilities:** Test API endpoints that accept user input for common injection vulnerabilities (SQLi, NoSQLi, Command Injection, etc.). Fuzz API inputs with injection payloads.
-6. **Test for Security Misconfigurations:** Look for common API security misconfigurations (exposed admin endpoints, verbose error messages, insecure headers, default credentials, etc.).
-7. **Test for Lack of Resources & Rate Limiting:**  Test for rate limiting on sensitive API endpoints (authentication, data retrieval). Try to perform DoS attacks or brute-force attempts.
-8. **Test for Exposed Sensitive Data:** Analyze API responses for unintentional exposure of sensitive data (PII, credentials, internal data) in responses, logs, or error messages.
-9. **Test for Mass Assignment:** If API endpoints handle data updates, test for mass assignment vulnerabilities. Try to modify object properties you shouldn't be able to.
-10. **Test for Vulnerable Components:**  If possible, try to identify versions of frameworks, libraries, and components used by the API and check for known vulnerabilities.
-
-**8. Reporting & Considerations: API Vulnerabilities**
+## 7. Reporting & Considerations: API Vulnerabilities
 
 * **Clearly Indicate "API Vulnerability":** In your report title and summary, specify that you found a vulnerability in the API (e.g., "IDOR in API Endpoint `/api/users/{id}`").
 * **Focus on API-Specific Details:** In your report, clearly describe the API endpoint URL, HTTP method, parameters, request/response bodies, and authentication/authorization scheme relevant to the vulnerability.
