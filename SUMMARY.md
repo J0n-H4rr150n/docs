@@ -2,6 +2,8 @@
 * [Home Page](README.md)  
 * Bugbounty
   * [Writeups](bugbounty/writeups.md)  
+* Cheatsheets
+  * [Angular](cheatsheets/angular.md)    
 * Cloud  
   * Amazon Web Services (AWS)  
     * [AWS](cloud/aws/aws.md)  
@@ -51,6 +53,8 @@
     * [VirusTotal](tools/information_gathering/virustotal.md)  
     * [wappalyzer](tools/information_gathering/wappalyzer.md)  
     * [whois](tools/information_gathering/whois.md)
+  * Proxy 
+    * [caido](tools/proxy/caido.md)    
   * SAST
     * [semgrep](tools/sast/semgrep.md)  
   * Vulnerabilities  
