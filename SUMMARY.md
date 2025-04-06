@@ -47,6 +47,7 @@
   * Information Gathering  
     * [amass](tools/information_gathering/amass.md)  
     * [assetfinder](tools/information_gathering/assetfinder.md)  
+    * [cert.sh](tools/information_gathering/cert.sh.md)  
     * [dig](tools/information_gathering/dig.md)  
     * [nmap](tools/information_gathering/nmap.md)  
     * [recon-ng](tools/information_gathering/recon-ng.md)  
