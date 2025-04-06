@@ -20,6 +20,17 @@
   * [Fingerprinting](privacy/fingerprinting.md)
 * Programming
   * [Python](programming/python/python.md)
+* Setup  
+  * [Ubuntu](setup/ubuntu.md)
+  * [browser extensions](setup/browser-extensions.md)  
+  * [metasploit](setup/metasploit.md)  
+  * [mitmproxy](setup/mitmproxy.md)  
+  * [payloads](setup/payloads.md)  
+  * [proxy](setup/proxies.md)  
+  * [tmux](setup/tmux.md)  
+  * [vps](setup/vps.md)  
+  * [wordlists](setup/wordlists.md)  
+  * [wsl](setup/wsl.md)  
 * Threat Modeling
   * [Threat Modeling](threat_modeling/threat_modeling.md)
 * Tools
