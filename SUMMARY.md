@@ -8,6 +8,10 @@
   * [Spoof HTML Content](cheatsheets/spoof-html-content.md)  
   * [Unauthenticated](cheatsheets/unauthenticated.md)  
   * [XSS](cheatsheets/xss.md)  
+* Checklists
+  * [Angular](checklists/angular.md)  
+  * [API Security](checklists/api-security.md)  
+  * [HTTPX Results (Unauth)](checklists/httpx-results-unauthenticated.md)  
 * Cloud  
   * Amazon Web Services (AWS)  
     * [AWS](cloud/aws/aws.md)  
