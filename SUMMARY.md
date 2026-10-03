@@ -24,6 +24,13 @@
     * [Certifications](education/certifications/certifications.md)  
   * Training  
     * [Online](education/training/online.md)  
+* AI & LLM Security  
+  * [Overview](ai-llm-security/ai-llm-security.md)  
+  * [Threats](ai-llm-security/threats.md)  
+  * [Agent Security](ai-llm-security/agent-security.md)  
+  * [Defenses](ai-llm-security/defenses.md)  
+  * [Model Context Protocol (MCP)](ai-llm-security/mcp.md)  
+  * [Resources](ai-llm-security/resources.md)  
 * Pentesting  
   * [Reports](pentesting/reports.md)  
 * Privacy
